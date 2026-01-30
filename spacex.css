@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fristsection{
+    height: 492px;
+    width: 732px;
+}
+header {
+    background-color:  rgb(239, 186, 186);
+}
+ header .logo{
+
+    width: 163px;
+    height: 109px;
+     
+}
+.main {
+    width: 100%;
+    /* height: 60%; */
+    background-color: rgb(135, 89, 209);
+    display: flex;
+     overflow: hidden;
+}
+.explore{
+    width: 50%;
+    color: white;
+    /* height: 100%; */
+    background-color: rgb(136, 3, 25);
+}
+.mars{
+    height: ;
+}
+.mars-video{
+    width: 100%;
+    /* height: 55%; */
+    object-fit: cover;      /* full screen maintain kare */
+     object-position: right center; 
+    
+      
+
+}
