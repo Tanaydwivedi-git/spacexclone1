@@ -4,20 +4,34 @@
     box-sizing: border-box;
 }
 .fristsection{
-    height: 492px;
-    width: 732px;
+    height: 1000px;
+    width: 1500px;
 }
 header {
-    background-color:  rgb(239, 186, 186);
+    display: flex;
+    background-color:  rgb(0, 0, 0);
 }
  header .logo{
-
-    width: 163px;
-    height: 109px;
+    padding: 10px;
+    width: 100%auto;
+    height: 40px;
      
 }
+.navbaarcontent{
+    /* justify-content: space-between; */
+    margin: 0px , 16px;
+    font-size: 19px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font: 1em sans-serif;
+    padding: 14px;
+    width: 100%auto;
+    height: 40px;
+    color: #F0F0FACC;
+
+}
 .main {
-    width: 100%;
+    max-width: 1500px;
+    
     /* height: 60%; */
     background-color: rgb(135, 89, 209);
     display: flex;
@@ -25,18 +39,18 @@ header {
 }
 .explore{
     width: 50%;
-    color: white;
+    color:  #F0F0FACC;
     /* height: 100%; */
-    background-color: rgb(136, 3, 25);
+    background-color: black;
 }
 .mars{
-    height: ;
+    overflow: hidden;
+    
 }
 .mars-video{
-    width: 100%;
-    /* height: 55%; */
-    object-fit: cover;      /* full screen maintain kare */
-     object-position: right center; 
+    /* width: 200px; */
+    height: 100vh;
+    object-fit: cover;      
     
       
 
