@@ -5,53 +5,112 @@
 }
 .fristsection{
     height: 1000px;
-    width: 1500px;
+    width: 100%;
 }
 header {
+    padding-top: 16px;
+    /* margin-top: 10px; */
     display: flex;
     background-color:  rgb(0, 0, 0);
 }
  header .logo{
+    margin-left: 19px;
     padding: 10px;
     width: 100%auto;
     height: 40px;
      
 }
+header button{
+    border: 1px solid #f5f5f9cc;
+    margin-top: 6px;
+    margin-left: 60px;
+    height: 30px;
+    border-radius: 4px;
+    padding: 10px;
+    text-align: left;
+    font-size: 10px;
+    background-color: black;
+    width: 240px;
+    color: #F0F0FACC;
+}
 .navbaarcontent{
     /* justify-content: space-between; */
-    margin: 0px , 16px;
+    /* margin: 0px , 16px; */
+    margin-left: 9px;
     font-size: 19px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
     font: 1em sans-serif;
     padding: 14px;
     width: 100%auto;
     height: 40px;
     color: #F0F0FACC;
-
+}
+.navbaarcontent1{
+      margin-left: 15px;
+    font-size: 15px;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    font: 1em sans-serif;
+    padding: 14px;
+    width: 100%auto;
+    height: 40px;
+    color: #F0F0FACC;  
 }
 .main {
-    max-width: 1500px;
-    
-    /* height: 60%; */
-    background-color: rgb(135, 89, 209);
+    /* max-width: 1500px; */
+    background-color: rgb(0, 0, 0);
     display: flex;
-     overflow: hidden;
+    overflow: hidden;
 }
 .explore{
+    font-size: 20px;
+    margin-left: 70px;
+    margin-top: 330px;
     width: 50%;
     color:  #F0F0FACC;
-    /* height: 100%; */
+ background-color: black;
+}
+.explore h1{
+    margin-bottom: 10px;
+    line-height: 42px;
+}
+.explore p{
+    font-size: 17px;
+}
+.main .explore button {
+    /* padding: 22px; */
+    border: 1px solid  rgb(151, 150, 150);
+    margin-top: 14px;
+    /* margin-left: 60px; */
+    /* height: 30px; */
+    justify-content: center;
+    text-align: center;
+    border-radius: 4px;
+    padding:12px;
+    text-align: left;
+    font-size: 12px;
     background-color: black;
+    color: #F0F0FACC;
 }
-.mars{
-    overflow: hidden;
-    
+.main2{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 900px;
+    /* height: 400px; */
+    width: 100%;
+    background-image: url(img/spaceximg2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.mars-video{
-    /* width: 200px; */
-    height: 100vh;
-    object-fit: cover;      
-    
-      
+.explore1{
+    margin-top: 150px;
+    margin-left: 650px;
+}
+.main2 .explore1 h1{
+font-size: 50px;
+}
+.main2 .explore1 button{
 
 }
