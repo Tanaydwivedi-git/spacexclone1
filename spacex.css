@@ -76,12 +76,18 @@ header button{
 .explore p{
     font-size: 17px;
 }
+ 
+
+.main .explore button:hover{
+    background-color: #F0F0FACC;
+    color: black;
+}
+
+
 .main .explore button {
-    /* padding: 22px; */
+     
     border: 1px solid  rgb(151, 150, 150);
     margin-top: 14px;
-    /* margin-left: 60px; */
-    /* height: 30px; */
     justify-content: center;
     text-align: center;
     border-radius: 4px;
@@ -97,20 +103,91 @@ header button{
     justify-content: start;
     align-items: center;
     height: 900px;
-    /* height: 400px; */
     width: 100%;
     background-image: url(img/spaceximg2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    color: #F0F0FA;
+  
 }
 .explore1{
     margin-top: 150px;
-    margin-left: 650px;
+    margin-left: 650px;    
+
 }
 .main2 .explore1 h1{
-font-size: 50px;
+   font-size: 60px;
+  /* color: #F0F0FACC; */
 }
 .main2 .explore1 button{
+    border: 1px solid  rgb(151, 150, 150);
+    margin-top: 10px;
+    /* margin-bottom: 14px; */
+    border-radius: 4px;
+    padding:12px;
+    font-size: 12px;
+    background-color: #00000080;
+    color: #F0F0FA;
+ 
 
+}
+
+.main3{
+ position: relative;
+ top:517px;
+ width: 100%;
+}
+ 
+.main3 .explore2 h2{
+    font-size: 48px;
+    line-height:42px;
+}
+
+.main3 .explore2 p{
+    font-size: 14px;
+    line-height: 20px;
+}
+ 
+.explore2{
+    position: absolute;
+    width: 100%;
+    color: #F0F0FACC;
+    height: 100vh;
+    z-index: 2;
+    /* background: linear-gradient( rgba(0, 0, 0, 0.100) 10%, rgba(255, 255, 255, 0) 100%); */
+}
+
+.rocket-landing{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: 1;
+}
+
+.main3 .explore2 button{
+    border: 1px solid  rgb(151, 150, 150);
+    margin-top: 10px;
+    /* margin-bottom: 14px; */
+    border-radius: 4px;
+    padding:12px;
+    font-size: 12px;
+    background-color: #00000080;
+    color: #F0F0FA;
+
+}
+ 
+.main2 .explore2 button:hover{
+    background-color: #F0F0FACC;
+    color: #00000080;
+}
+.explore2{
+    height: 200px;
+    width: 700px;
+}
+
+.explore2{
+    margin-top: 110px;
+    margin-left: 110px;
 }
