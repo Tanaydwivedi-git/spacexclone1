@@ -191,3 +191,18 @@ header button{
     margin-top: 110px;
     margin-left: 110px;
 }
+.main4{
+    margin-top: 731.55px;
+    position:  absolute;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ .lastsection{
+     position: relative;    
+ }
+.main4 img{ 
+        height: 812px;
+        width: 1522px;
+    }
