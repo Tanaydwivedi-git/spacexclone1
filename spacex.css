@@ -205,4 +205,45 @@ header button{
 .main4 img{ 
         height: 812px;
         width: 1522px;
-    }
+}
+
+
+
+.explore2{
+    width: 580px;
+    height: 200px;
+    margin-left: 700px;
+}
+
+.explore2 h2{
+    font-size: 45px;
+    line-height: 60px;
+}
+.explore2 p{
+    font-size: 15px;
+    line-height: 18spx;
+    padding-top: 9px;
+}
+.explore2 button{
+    border: 1px solid  rgb(151, 150, 150);
+    margin-top: 14px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 4px;
+    padding:12px;
+    text-align: left;
+    font-size: 12px;
+    background-color: black;
+    color: #F0F0FACC;
+    
+}
+
+
+.divfooter{
+    height: 80px;
+    width: 1522px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
